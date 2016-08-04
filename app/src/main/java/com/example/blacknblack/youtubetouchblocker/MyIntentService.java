@@ -112,7 +112,7 @@ public class MyIntentService extends Service implements SensorEventListener {
         manager.unregisterListener(MyIntentService.this, accelerometer);
         if (mView != null) {
             mWindowManager.removeView(mView);
-        }
+        }j
     }
 
     @Override
